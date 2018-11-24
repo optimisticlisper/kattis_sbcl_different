@@ -16,7 +16,7 @@ SBCL is `sbcl`.
 After having a look at [Java's flags](https://open.kattis.com/help/java), running
 any sbcl program with the following flags should be sufficient:
 
-- `sbcl --dynamic-space-size {memlim} --control-stack-size 64 --load {path}`
+- `sbcl --dynamic-space-size {memlim} --control-stack-size 64 --script {path}`
 
 ## Error Messages
 Generally all of the error messages displayed are safe to present to the
